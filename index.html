@@ -1,60 +1,61 @@
-<div class="title">⌚ Men's Watches</div>
+<style>
+.grid{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:12px;
+  padding:12px;
+}
+
+.card{
+  background:#111;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.card video{
+  width:100%;
+  height:150px;
+  object-fit:cover;
+}
+
+.info{
+  padding:10px;
+}
+
+.price{
+  color:#00FF99;
+  font-weight:bold;
+}
+
+.btn{
+  display:block;
+  text-align:center;
+  background:#25D366;
+  color:#fff;
+  padding:10px;
+  border-radius:8px;
+  text-decoration:none;
+}
+</style>
 
 <div class="grid">
 
-<div class="card">
-  <video controls playsinline>
-    <source src="videos/watch1.mp4" type="video/mp4">
-  </video>
-  <div class="info">
-    <h3>Rado Blue Jubilee</h3>
-    <p class="price">₹1499</p>
-    <a class="btn" href="https://wa.me/919409955512?text=Order Rado Blue Jubilee">Buy Now</a>
+  <div class="card">
+    <video controls><source src="videos/watch1.mp4"></video>
+    <div class="info">
+      <h4>Rado Blue Jubilee</h4>
+      <p class="price">₹1499</p>
+      <a class="btn" href="https://wa.me/919409955512">Buy Now</a>
+    </div>
   </div>
-</div>
 
-<div class="card">
-  <video controls playsinline>
-    <source src="videos/watch2.mp4" type="video/mp4">
-  </video>
-  <div class="info">
-    <h3>Versace Black</h3>
-    <p class="price">₹1699</p>
-    <a class="btn" href="https://wa.me/919409955512?text=Order Versace Black">Buy Now</a>
+  <div class="card">
+    <video controls><source src="videos/watch2.mp4"></video>
+    <div class="info">
+      <h4>Versace Black</h4>
+      <p class="price">₹1699</p>
+      <a class="btn" href="https://wa.me/919409955512">Buy Now</a>
+    </div>
   </div>
-</div>
-
-<div class="card">
-  <video controls playsinline>
-    <source src="videos/watch3.mp4" type="video/mp4">
-  </video>
-  <div class="info">
-    <h3>Versace Gold</h3>
-    <p class="price">₹1699</p>
-    <a class="btn" href="https://wa.me/919409955512?text=Order Versace Gold">Buy Now</a>
-  </div>
-</div>
-
-<div class="card">
-  <video controls playsinline>
-    <source src="videos/watch4.mp4" type="video/mp4">
-  </video>
-  <div class="info">
-    <h3>Versace Rose Gold</h3>
-    <p class="price">₹1699</p>
-    <a class="btn" href="https://wa.me/919409955512?text=Order Versace Rose Gold">Buy Now</a>
-  </div>
-</div>
-
-<div class="card">
-  <video controls playsinline>
-    <source src="videos/watch5.mp4" type="video/mp4">
-  </video>
-  <div class="info">
-    <h3>Versace Silver Gold</h3>
-    <p class="price">₹1699</p>
-    <a class="btn" href="https://wa.me/919409955512?text=Order Versace Silver Gold">Buy Now</a>
-  </div>
-</div>
 
 </div>
